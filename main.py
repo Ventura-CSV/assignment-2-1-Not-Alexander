@@ -12,8 +12,8 @@ def main():
     ########################################
     """
     return m_perc, f_perc
-m_perc = float(input("How many male students: "))
-f_perc = float(input("How many female students: "))
+m_perc = float(input())
+f_perc = float(input())
 total = m_perc + f_perc
 print("Total number of students: ", int(total))
 print("The number of males and females: ", int(m_perc), int(f_perc))
