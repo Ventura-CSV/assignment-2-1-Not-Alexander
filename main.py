@@ -12,13 +12,11 @@ def main():
     ########################################
     """
     return m_perc, f_perc
-male = float(input("How many male students: "))
-female = float(input("How many female students: "))
-total = male + female
-m_perc = male / 100
-f_perc = female / 100
+m_perc = float(input("How many male students: "))
+f_perc = float(input("How many female students: "))
+total = m_perc + f_perc
 print("Total number of students: ", int(total))
-print("The number of males and females: ", int(male), int(female))
-print(f'The percentages of males and females:\t{m_perc:.2%}, {f_perc:.2%}')
+print("The number of males and females: ", int(m_perc), int(f_perc))
+print(f'The percentages of males and females:\t{m_perc:.2f}, {f_perc:.2f}')
 if __name__ == '__main__':
     main()
