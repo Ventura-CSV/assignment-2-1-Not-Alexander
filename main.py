@@ -10,8 +10,8 @@ def main():
     total = m_perc + f_perc
     print("Total number of students: ", int(total))
     print("The number of males and females: ", int(m_perc), int(f_perc))
-    m_perc = m_perc / (total * 100)
-    f_perc = f_perc / (total * 100)
+    m_perc = m_perc / total * 100
+    f_perc = f_perc / total * 100
     print(f'The percentages of males and females:\t{m_perc:.2f}, {f_perc:.2f}')
 
     """
